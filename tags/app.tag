@@ -1,14 +1,9 @@
 <app>
-<h1>What is the bigger number?</h1>
-<h2>Part 1: intro to numbers </h2>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TDS1-brP2K8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	<h2>Part 2 </h2>
-	<h3> Compare the quantities of numbers </h3>
-	<img src ="images/numbers.png">
-	
+
+
 	<h2>Part 3 </h2>
-	
+
 	<question each={ quizItem in quizQuestions }></question>
 
 <button type="button" onclick={ getGrade }>finish</button>
@@ -29,9 +24,9 @@
 				"4.png",
 				"9.png"
 				],
-		
+
 				answer:"9.png"
-			
+
 		},
 		{
 			id: "q2",
@@ -41,9 +36,9 @@
 				"1.png",
 				"7.png"
 				],
-		
+
 				answer:"7.png"
-			
+
 		},
 		{
 			id: "q3",
@@ -53,9 +48,9 @@
 				"2.png",
 				"7.png"
 				],
-		
+
 				answer:"7.png"
-			
+
 		}
 	];
 
@@ -76,7 +71,7 @@
 	}
 	h2 {
 		color:royalblue ;
-		
+
 	}
 </style>
 </app>
