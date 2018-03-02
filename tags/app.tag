@@ -2,13 +2,13 @@
 
 
 
-	<h2>Part 3 </h2>
+<h2>Part 3 </h2>
 
 	<question each={ quizItem in quizQuestions }></question>
 
-<button type="button" onclick={ getGrade }>finish</button>
+	<button type="button" onclick={ getGrade }>finish</button>
 
-<p>You got { grade } correct.</p>
+	<p>You got { grade } correct.</p>
 
 <script>
 	var that = this;

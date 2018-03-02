@@ -1,5 +1,6 @@
 <visualize>
 
+  
   <button onclick={ numberSize } >visualize</button>
 
 
@@ -12,6 +13,19 @@ numberSize(event) {
 			this.numberSize = this.numberSize + 10;
 
 		}
+  
+this.numberInfo = [
+  			{
+  				id: "abc123",
+  				sentence: "Visualize the numbers",
+  				choices: [
+  					"1",
+  					"2",
+  					"3",
+  					"4"
+  				]
+        }
+  		];
 
 </script>
 
