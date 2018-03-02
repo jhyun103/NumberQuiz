@@ -1,7 +1,5 @@
 <app>
 
-
-
 	<h2>Part 3 </h2>
 
 	<question each={ quizItem in quizQuestions }></question>
@@ -24,9 +22,7 @@
 				"4.png",
 				"9.png"
 				],
-
 				answer:"9.png"
-
 		},
 		{
 			id: "q2",
@@ -36,9 +32,7 @@
 				"1.png",
 				"7.png"
 				],
-
 				answer:"7.png"
-
 		},
 		{
 			id: "q3",
@@ -68,6 +62,7 @@
 	:scope {
 		font-family: 'Josefin Sans', sans-serif;
 		display: block;
+		background-color: #87ceeb;
 	}
 	h2 {
 		color:royalblue ;
