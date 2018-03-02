@@ -27,7 +27,7 @@ this.numberInfo = [
 <style>
 :scope {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
+
   display: block;
 }
 </style>
