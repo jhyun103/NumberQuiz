@@ -1,9 +1,14 @@
 <visualize>
 
+  <h3>{numberItem.sentence}</h3>
   
-  <button onclick={ numberSize } >visualize</button>
+  <ul>
+    <li each={ items in numberItem.choices }>{items }</li>
+  </ul>
 
 
+
+<button onclick={ numberSize } >Visualize</button>
 
 <script>
 
@@ -14,18 +19,7 @@ numberSize(event) {
 
 		}
   
-this.numberInfo = [
-  			{
-  				id: "abc123",
-  				sentence: "Visualize the numbers",
-  				choices: [
-  					"1",
-  					"2",
-  					"3",
-  					"4"
-  				]
-        }
-  		];
+
 
 </script>
 
@@ -47,6 +41,9 @@ this.numberInfo = [
 			border: 1px solid navy;
 			cursor: pointer;
 		}
+    ul {
+  list-style-type: none;
+}
 
 </style>
 

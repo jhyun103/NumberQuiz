@@ -1,12 +1,7 @@
 <app>
 
-<<<<<<< HEAD
 
-
-<h2>Part 3 </h2>
-=======
 	<h2>Part 3 </h2>
->>>>>>> a6eda6042ba2476d73eeddad082dad2dad92143c
 
 	<question each={ quizItem in quizQuestions }></question>
 
