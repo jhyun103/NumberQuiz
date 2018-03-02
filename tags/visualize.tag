@@ -7,7 +7,7 @@
 		<div class="fontChange">
 			<div style="font-size:{fontSize}px;">
     <ul>
-      <li each={ items in numberItem.choices }>{items }</li>
+      <li each={numberItem.choices }>{title}</li>
     </ul>
 	  </div>
 	</div>
@@ -16,8 +16,14 @@
 
 <script>
   this.fontSize= 20;
+  
 
   numberSize(event) {
+    var item=event.item;
+    var index= numberItem.choices.indexof(item);
+      numberItem.choices.splice(index,1);
+      
+      
 			this.fontSize = this.fontSize+100;
 
 }
