@@ -2,32 +2,24 @@
 
   <h3>{numberItem.sentence}</h3>
   
+  <ul>
+    <li each={ items in numberItem.choices }  style="font-size: {fontSize *items || 20}px;">{items}</li>
+    
+  
+  </ul>
+  
 
-  <div>
-		<div class="fontChange">
-			<div style="font-size:{fontSize}px;">
-    <ul>
-      <li each={numberItem.choices }>{title}</li>
-    </ul>
-	  </div>
-	</div>
 
 <button onclick={ numberSize } >Visualize</button>
 
 <script>
-  this.fontSize= 20;
+  var that= this;
+  this.fontSize= false;
   
-
-  numberSize(event) {
-    var item=event.item;
-    var index= numberItem.choices.indexof(item);
-      numberItem.choices.splice(index,1);
-      
-      
-			this.fontSize = this.fontSize+100;
-
-}
-
+  numberSize(event){
+    
+    this.fontSize=100;
+  }
 
 
 </script>
