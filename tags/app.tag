@@ -8,6 +8,9 @@
 	<button type="button" onclick={ getGrade }>finish</button>
 
 	<p>You got { grade } correct.</p>
+	
+	<a href="Part4.html"><button show={this.grade==1}>Next Step</button></a>
+
 
 
 
@@ -26,7 +29,7 @@
 				"A4.png",
 				"A9.png"
 				],
-				answer:"A9.png"
+			answer:"A9.png"
 		}
 	];
 
@@ -39,6 +42,7 @@
 		});
 		console.log("number correct: ", correctItems.length);
 		this.grade = correctItems.length;
+		
 	}
 </script>
 

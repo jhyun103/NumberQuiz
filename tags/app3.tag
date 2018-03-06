@@ -8,7 +8,8 @@
 	<button type="button" onclick={ getGrade }>finish</button>
 
 	<p>You got { grade } correct.</p>
-
+	
+<iframe show ={this.grade ==1} src="https://giphy.com/embed/xThuWpoG470Q0stGmI" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/truthorange-highfive-cat-happy-congratulations-xThuWpoG470Q0stGmI"></a></p>
 
 
 <script>

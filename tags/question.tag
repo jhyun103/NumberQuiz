@@ -15,7 +15,6 @@
 
 
 
-
 	<script>
 		var that = this;
 		console.log('question.tag');
