@@ -4,9 +4,9 @@
 		<h3>{ quizItem.question }</h3>
 	<label each={ choice in quizItem.choices}>
 
-		<input type="radio" name={ quizItem.id } value={ quizItem.answer} onclick={ setAnswer }></input>
 		
-		<img src={"./images/" + choice}>
+		<input type="image" src= {"./images/" + choice} value={ quizItem.answer} onclick={ setAnswer }></input>
+	
 
 
 
