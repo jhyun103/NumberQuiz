@@ -19,29 +19,29 @@
 			id: "q1",
 			question: "Choose the biggest number",
 			choices: [
-				"1.png",
-				"4.png",
-				"9.png"
+				"A2.png",
+				"A4.png",
+				"A9.png"
 				],
-				answer:"9.png"
+				answer:"A9.png"
 		},
 		{
 			id: "q2",
 			question: "Choose the biggest number",
 			choices: [
-				"2.png",
-				"1.png",
-				"7.png"
+				"B2.png",
+				"B4.png",
+				"B9.png"
 				],
-				answer:"7.png"
+				answer:"A9.png"
 		},
 		{
 			id: "q3",
 			question: "Choose the biggest number",
 			choices: [
-				"1.png",
-				"2.png",
-				"7.png"
+				"C2.png",
+				"C4.png",
+				"C9.png"
 				],
 
 				answer:"7.png"
@@ -63,7 +63,7 @@
 	:scope {
 		font-family: 'Josefin Sans', sans-serif;
 		display: block;
-		background-color: #87ceeb;
+		
 	}
 	h2 {
 		color:royalblue ;
