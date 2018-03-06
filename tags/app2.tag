@@ -1,9 +1,9 @@
-<app>
+<app2>
 
 
-	<h2>Part 3 </h2>
+	<h2>Part 4</h2>
 
-	<question each={ quizItem in quizQuestions }></question>
+	<question2 each={ quizItem in quizQuestions }></question2>
 
 	<button type="button" onclick={ getGrade }>finish</button>
 
@@ -17,16 +17,7 @@
 
 
 	this.quizQuestions = [
-		{
-			id: "q1",
-			question: "Choose the biggest number",
-			choices: [
-				"A2.png",
-				"A4.png",
-				"A9.png"
-				],
-				answer:"A9.png"
-		},
+
 		{
 			id: "q2",
 			question: "Choose the biggest number",
@@ -36,18 +27,6 @@
 				"B9.png"
 				],
 				answer:"B9.png"
-		},
-		{
-			id: "q3",
-			question: "Choose the biggest number",
-			choices: [
-				"C2.png",
-				"C4.png",
-				"C9.png"
-				],
-
-				answer:"C9.png"
-
 		}
 	];
 
@@ -73,4 +52,4 @@
 
 	}
 </style>
-</app>
+</app2>

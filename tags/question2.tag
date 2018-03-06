@@ -1,4 +1,4 @@
-<question>
+<question2>
 
 
 		<h3>{ quizItem.question }</h3>
@@ -7,7 +7,7 @@
 
 		<input type="image" src= {"./images/" + choice} value={ quizItem.answer} onclick={ setAnswer }></input>
 
-	
+
 
 
 	</label>
@@ -44,4 +44,4 @@
 		}
 
 	</style>
-</question>
+</question2>
