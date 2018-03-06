@@ -1,4 +1,4 @@
-<question>
+<question3>
 
 
 		<h3>{ quizItem.question }</h3>
@@ -11,6 +11,7 @@
 
 
 	</label>
+
 
 
 
@@ -43,4 +44,4 @@
 		}
 
 	</style>
-</question>
+</question3>

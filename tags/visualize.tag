@@ -1,13 +1,13 @@
 <visualize>
 
   <h3>{numberItem.sentence}</h3>
-  
+
   <ul>
-    <li each={ items in numberItem.choices }  style="font-size: {fontSize *items || 20}px;">{items}</li>
-    
-  
+    <li each={ items in numberItem.choices }  style="font-size: {fontSize * items|| 50}pt;">{items}</li>
+
+
   </ul>
-  
+
 
 
 <button onclick={ numberSize } >Visualize</button>
@@ -15,9 +15,9 @@
 <script>
   var that= this;
   this.fontSize= false;
-  
+
   numberSize(event){
-    
+
     this.fontSize=100;
   }
 
@@ -45,9 +45,9 @@
     ul {
     list-style-type: none;
     }
-  
-  
-  
+
+
+
 </style>
 
 
