@@ -1,7 +1,7 @@
 <app>
 
 
-	<h2>Part 3 </h2>
+	<h2>Part 3</h2>
 
 	<question each={ quizItem in quizQuestions }></question>
 
@@ -17,6 +17,7 @@
 
 
 	this.quizQuestions = [
+
 		{
 			id: "q1",
 			question: "Choose the biggest number",
@@ -26,30 +27,10 @@
 				"A9.png"
 				],
 				answer:"A9.png"
-		},
-		{
-			id: "q2",
-			question: "Choose the biggest number",
-			choices: [
-				"B2.png",
-				"B4.png",
-				"B9.png"
-				],
-				answer:"B9.png"
-		},
-		{
-			id: "q3",
-			question: "Choose the biggest number",
-			choices: [
-				"C2.png",
-				"C4.png",
-				"C9.png"
-				],
-
-				answer:"C9.png"
-
 		}
 	];
+
+
 
 	getGrade(e) {
 		console.log(this.quizQuestions);

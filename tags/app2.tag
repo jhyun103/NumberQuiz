@@ -30,19 +30,7 @@
 		}
 	];
 
-	this.quizQuestions2 = [
 
-		{
-			id: "q2",
-			question: "Choose the biggest number",
-			choices: [
-				"C2.png",
-				"C4.png",
-				"C9.png"
-				],
-				answer:"C9.png"
-		}
-	];
 
 	getGrade(e) {
 		console.log(this.quizQuestions);

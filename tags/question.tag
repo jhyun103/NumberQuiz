@@ -7,7 +7,7 @@
 
 		<input type="image" src= {"./images/" + choice} value={ quizItem.answer} onclick={ setAnswer }></input>
 
-	
+
 
 
 	</label>
